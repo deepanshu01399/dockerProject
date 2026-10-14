@@ -1,0 +1,40 @@
+# Git files
+.git/
+.gitignore
+
+# Dependencies installed on the host
+node_modules/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Test artifacts
+coverage/
+.nyc_output/
+test-results/
+
+# Local configuration and caches
+.vscode/
+.idea/
+.cache/
+.npm/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local certificates and keys
+*.pem
+*.key
+
+# Documentation (optional)
+README.md
